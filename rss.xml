@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+	<channel>
+		<item>
+			<title>Početna</title>
+			<description>Raspolozen za kafu?</description>
+			<link>https://www.proba.com/index.html</link>
+		</item>
+		<item>
+			<title>Proizvodi</title>
+			<description>Proizvode koje nudimo.</description>
+			<link>https://www.proba.com/proizvodi.html</link>
+		</item>
+		<item>
+			<title>Kontakt</title>
+			<description>Kontaktirajte nas.</description>
+			<link>https://www.proba.com/kontakt.html</link>
+		</item>
+		<item>
+			<title>Onama</title>
+			<description>Nesto o autoru.</description>
+			<link>https://www.proba.com/onama.html</link>
+		</item>
+	</channel>
+</rss>

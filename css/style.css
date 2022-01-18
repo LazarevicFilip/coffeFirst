@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Indie Flower', cursive;
+}
+.okvir{
+	width: 70%;
+	margin: 0px auto;
+}
+.cleaner{
+	clear: both;
+}
+#zaglavlje{
+	height: 100px;
+	background-color: #5A3300;
+}
+#logo{
+	float: left;
+}
+nav{
+	float: right;
+	padding: 25px;
+}
+ul{
+	list-style-type:none;
+}
+a{
+	text-decoration: none;
+}
+nav ul li{
+	display: inline;
+	margin-right: 20px;
+}
+nav ul li a{
+	font-size: 25px;
+	color: #fff;
+}
+nav ul li:hover a{
+	color:#EA5616;
+}
+#slajder{
+	background-image: url("../img/slajder.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	min-height: 700px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+#slajdertxt{
+	text-align: center; 
+}
+#slajdertxt h1{
+	font-size: 70px;
+	color: #fff;
+	letter-spacing: 5px;
+}
+#slajdertxt p{
+	font-size: 50px;
+	color: #fff;
+	font-weight: 600;
+	margin-bottom: 30px;
+}
+#slajdertxt a{
+	background: #A07950;
+	color: #fff;
+	padding: 20px 15px;
+	border-radius: 10px;
+	font-size: 20px;
+}
+#slajdertxt a:hover{
+	color: #EA5616;
+}
+nav ul li.aktivan a{
+	border: 3px outset #EA5616;
+	border-radius: 15px;
+}
+#gradovi{
+	background: #5A3300;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
+	padding-bottom: 30px;
+}
+#gdesmo{
+	width:100%;
+	padding: 20px 0px;
+}
+#gdesmo h2{
+	color: #fff;
+	text-align: center;
+	font-size: 50px;
+}
+#gradovi .artikl{
+	background-color: #000;
+	font-size: 20px;
+	color: #fff;
+}
+footer{
+	background:#4d2f0d;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
+}
+#soc, #linkovi , #pet p{
+	font-size: 30px;
+	color: #fff;
+	margin-bottom: 20px;
+}
+#soc ul li a{
+	font-size: 20px;
+	color: #fff;
+}
+#linkovi ul li a{
+	color: #fff;
+}
+#linkovi, #soc{
+	color: #fff;
+}
+#pet{
+	text-align: center;
+}
+#copyright{ 
+	padding: 20px 0px;
+	width: 100%;
+}
+#copyright p{
+	text-align: center;
+	color: #fff;
+	font-size: 20px;
+}
+/* kontakt.html*/
+#kontakt{
+	background-image: url("../img/turska.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 700px;
+}
+#forma{
+	width: 45%;
+	height: 500px;
+	display: block;
+	background-color: rgba(26,26,26, 0.5);
+	text-align: center;
+	float: left;
+	margin: 40px 0px 0px 40px;
+	border: 1px solid #262626;
+}
+#forma h1{
+	font-size: 40px;
+	color: #fff;
+}
+select, .box{
+	width: 90%;
+	height: 40px;
+	font-size: 22px;
+	background-color: rgba(26,26,26,0.8);
+	margin: 10px;
+	color: #fff;
+}
+}
+.ime{
+	width: 43%;
+	background-color: rgba(26,26,26,0.8);
+}
+.dugme{
+	width: 25%;
+	height: 30px;
+	background: #262626;
+	color: #fff;
+	margin: 10px;
+}
+#desno{
+	background-color: rgba(26,26,26,0.8);
+	float: right;
+	width: 25%;
+	text-align: center;
+	margin-top: 40px;
+	border-radius: 25px;
+}
+#desno p{
+	color: #fff;
+	font-size:22px;
+}
+#desno h2{
+	font-size: 40px;
+}
+/* proizvodi.html*/
+.toplekafe,.hladnekafe,.alkohol{
+	float: left;
+	width: 28%;
+	margin: 20px
+}
+.toplekafe,.hladnekafe,.alkohol,.sladoled,.caj li{
+	color: #fff;
+	font-size: 20px;
+}
+.sladoled,.caj {
+	width: 40%;
+	float: left;
+	text-align: center;
+}
+}
+.toplekafe,.hladnekafe,.alkohol,.sladoled, h1{
+	color: #fff;
+}
+.caj h1{
+	color: #fff
+}
+.boja{
+	background: #8C653C;
+}
+/*onama*/
+aside{
+	float: right;
+	margin: 20px 20px 0px 0px;
+}
+#autor{
+	float: left;
+	width: 40%;
+	margin-bottom: 30px;
+}
+#autor h1{
+	font-size: 40px;
+	letter-spacing: 2px;
+	color: #fff;
+}
+#autor p{
+	font-size: 20px;
+	letter-spacing: 1px;
+	color: #fff;
+}
+figure{
+	background-color: #000;
+	font-size: 20px;
+	color: #fff;
+}
+
+
+
+	
+
